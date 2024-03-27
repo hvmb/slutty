@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Qutie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="$   session   $">
+    <meta property="og:description" content="founder, @nvmedrive">
+    <meta name="keywords" content="skid, skidcrew, skidcrew.xyz, skidcrews, skidcrewz," />
+    <meta property="og:image" content="">
+    <meta name="theme-color" content="#0024FF">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Apply the custom cursor */
+        body {
+            cursor: url('cursor.png'), auto;
+        }
+        </style>
+
+</head onclick="video.load();">
+<script type="text/javascript" src="title.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script type="text/javascript" src="files/jscrypto.js"></script>
+
+<body>
+    <div class="wrapper">
+        <main>
+            <video loop id="videoItem">
+          <source src="video.mp4" type="video/mp4" />
+          <source src="music.mp3" type="audio/mp3" />
+        </video>
+            <script type="text/javascript">
+                fetch("https://api.lanyard.rest/v1/users/1124076520315568238")
+                    .then((res) => res.json())
+                    .then(console.log);
+            </script>
+            <script>
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play();
+                }
+            </script>
+            <script class="bg-video" id="video">
+                const videoUrls = [
+                    "/videos/video.mp4",
+                    "/videos/video.mp4",
+                    "/videos/video.mp4",
+                    "/videos/video.mp4",
+                    "/videos/video.mp4",
+                    "/videos/video.mp4"
+                ];
+
+                const video = document.getElementById("videoItem");
+                const rnd = Math.floor(Math.random() * videoUrls.length);
+                console.log(`Playing #${rnd}: ${videoUrls[rnd]}`);
+                video.src = videoUrls[rnd];
+                video.load();
+                video.play();
+
+                const audioUrls = [
+                    "",
+                    "",
+                    ""
+                ];
+
+                const audio = new Audio();
+                document.body.appendChild(audio);
+
+                const loadedAudio = function() {
+                    audio.volume = 0.1;
+                    audio.play();
+                    audio.loop = true;
+                };
+                audio.addEventListener('canplaythrough', loadedAudio, false);
+                const audioRnd = Math.floor(Math.random() * audioUrls.length);
+                console.log(`Playing audio #${audioRnd}: ${audioUrls[audioRnd]}`);
+                audio.src = audioUrls[audioRnd]; <!-- IOS -->
+            </script>
+
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audio.load(); video.play(); videoPlay(); snow();">
+            <span class="no-hover" style="font-family: mono; font-size: 1.8em;">🏳️‍⚧️💸🏳️‍⚧️</span>
+            <span class="hover" style="font-family: mono; font-size: 1.8em;">🏳️‍⚧️💸🏳️‍⚧️</span>
+          </label>
+            </div class="box">
+
+            <div class="fullscreen">
+                <video muted loop playsinline preload="auto" class="bg-video" id="video">
+            <source src="" type="video/mp4">
+          </video>
+                <section class="text-content">
+                    <pre class="banner glitch" style="position: fixed; bottom: 100; width:100%; text-align: center; color: rgb(255, 0, 212);">    
+                                       
+    ,-----.             ,--.  ,--.        
+    '  .-.  '  ,--.,--.,-'  '-.`--' ,---.  
+    |  | |  |  |  ||  |'-.  .-',--.| .-. : 
+    '  '-'  '-.'  ''  '  |  |  |  |\   --. 
+     `-----'--' `----'   `--'  `--' `----' 
+                                                               
+                                                                                                    
+          </pre>
+
+
+
+                    <section class="fullscreen text-content">
+                        <a href="https://feds.lol/s0" style="font-family: mono; text-transform: lowercase; text-decoration: none;  font-size: 1.8em; color: rgb(255, 0, 212); text-shadow: 2px 2px 4px #000000;";"><span class="sparkle">feds.lol</span></a>
+                        <a href="https://t.me/astridscutie" style="font-family: mono; text-transform: lowercase; text-decoration: none;  font-size: 1.8em; color: rgb(255, 0, 212); text-shadow: 2px 2px 4px #000000;"><span class="sparkle">Telegram</span></a>
+                        <a href="https://t.me/coreraw" style="font-family: mono; text-transform: lowercase; text-decoration: none;  font-size: 1.8em; color: rgb(255, 0, 212); text-shadow: 2px 2px 4px #000000;"><span class="sparkle">64 (bought domain)</span></a>
+                        <div class="test-fix"></div>
+                    </section>
+                    <canvas id="cryptoCanvas"></canvas>
+            </div>
+            <div style="position: relative">
+            </div>
+        </main>
+    </div>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool/disable-devtool.min.js'></script>
+    <script type="text/javascript" src="event.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
+    <script type="text/javascript" src="snow.js"></script>
+    <script>
+        var typed = new Typed('.atype', {
+            strings: ['nvmedrive', 'nightware', 'Qutie', 'we00pium'],
+            typeSpeed: 140,
+            backSpeed: 140,
+            startDelay: 10,
+            shuffle: false,
+            loop: true,
+            showCursor: false,
+            cursorChar: '|',
+            autoInsertCss: true,
+        });
+    </script>
+
+    <script>
+        var cryptoLogos = [
+            "https://media.discordapp.net/attachments/975129514499772516/1047585564850913300/eth.png",
+            "https://cdn.lewd.host/cEqI0tvW.png",
+            "https://cdn.lewd.host/sGvccYZS.png",
+            "https://cdn.discordapp.com/emojis/1154851434995654708.gif?size=96&quality=lossless",
+            "https://s2.coinmarketcap.com/static/img/coins/200x200/328.png"
+        ];
+
+        var canvas = document.getElementById("cryptoCanvas");
+        var context = canvas.getContext("2d");
+        var logoCount = 30;
+        var logos = [];
+
+        function Logo(x, y, speed, logoImg) {
+            this.x = x;
+            this.y = y;
+            this.speed = speed;
+            this.logoImg = logoImg;
+        }
+
+        Logo.prototype.update = function() {
+            this.y += this.speed;
+
+            if (this.y > canvas.height) {
+                this.y = -100;
+                this.x = Math.random() * canvas.width;
+            }
+        };
+
+        function loadImage(url) {
+            return new Promise(function(resolve, reject) {
+                var image = new Image();
+                image.onload = function() {
+                    resolve(image);
+                };
+                image.onerror = function() {
+                    reject(new Error("Failed to load image: " + url));
+                };
+                image.src = url;
+            });
+        }
+
+        async function setup() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            try {
+                var loadedLogos = await Promise.all(cryptoLogos.map(loadImage));
+
+                for (var i = 0; i < logoCount; i++) {
+                    var x = Math.random() * canvas.width;
+                    var y = Math.random() * canvas.height;
+                    var speed = Math.random() * 1 + 0.5; // Adjust the speed here
+                    var logoImg = loadedLogos[Math.floor(Math.random() * loadedLogos.length)];
+
+                    var logo = new Logo(x, y, speed, logoImg);
+                    logos.push(logo);
+                }
+
+                setInterval(draw, 20);
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        function draw() {
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            for (var i = 0; i < logoCount; i++) {
+                var logo = logos[i];
+                context.save();
+                context.globalAlpha = 0.375; // transparency here (0.0 - 1.0)
+                context.drawImage(logo.logoImg, logo.x, logo.y, 40, 40);
+                context.restore();
+                logo.update();
+            }
+        }
+
+        window.onload = setup;
+        window.addEventListener("resize", function() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    </script>
+</body>
+
+</html>
